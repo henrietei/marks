@@ -25,7 +25,7 @@ class Student:
 
 
 
-student1=Student("henriete", 7)
+student1=Student("henriete", 3)
 student2=Student("anna", 8)
-check1=student1.check_pass_fail
-print(check1)
+check1=student1.check_pass_fail()
+check2=student2.check_pass_fail()
